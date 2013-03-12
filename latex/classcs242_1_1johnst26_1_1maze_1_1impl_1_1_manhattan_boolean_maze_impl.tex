@@ -1,0 +1,60 @@
+\hypertarget{classcs242_1_1johnst26_1_1maze_1_1impl_1_1_manhattan_boolean_maze_impl}{\section{cs242.\-johnst26.\-maze.\-impl.\-Manhattan\-Boolean\-Maze\-Impl Class Reference}
+\label{classcs242_1_1johnst26_1_1maze_1_1impl_1_1_manhattan_boolean_maze_impl}\index{cs242.\-johnst26.\-maze.\-impl.\-Manhattan\-Boolean\-Maze\-Impl@{cs242.\-johnst26.\-maze.\-impl.\-Manhattan\-Boolean\-Maze\-Impl}}
+}
+
+
+Inherits \hyperlink{interfacecs242_1_1johnst26_1_1maze_1_1_maze}{cs242.\-johnst26.\-maze.\-Maze}.
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcs242_1_1johnst26_1_1maze_1_1impl_1_1_manhattan_boolean_maze_impl_af278ece8216ae03fd5f1a7a9f1602ab7}{Manhattan\-Boolean\-Maze\-Impl} ()
+\item 
+\hypertarget{classcs242_1_1johnst26_1_1maze_1_1impl_1_1_manhattan_boolean_maze_impl_a9cebf1386a67fa5da3fd63ba8eed71f9}{{\bfseries Manhattan\-Boolean\-Maze\-Impl} (boolean\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} spaces)}\label{classcs242_1_1johnst26_1_1maze_1_1impl_1_1_manhattan_boolean_maze_impl_a9cebf1386a67fa5da3fd63ba8eed71f9}
+
+\item 
+\hypertarget{classcs242_1_1johnst26_1_1maze_1_1impl_1_1_manhattan_boolean_maze_impl_a9f2c39c0043da12f34dc5795e396d3f7}{int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} {\bfseries get\-Valid\-Adjacent\-Spaces} (int row, int col)}\label{classcs242_1_1johnst26_1_1maze_1_1impl_1_1_manhattan_boolean_maze_impl_a9f2c39c0043da12f34dc5795e396d3f7}
+
+\item 
+\hypertarget{classcs242_1_1johnst26_1_1maze_1_1impl_1_1_manhattan_boolean_maze_impl_a57582eb471202bbc37542d731b97e114}{double {\bfseries get\-Distance\-Between\-Spaces} (int x1, int y1, int x2, int y2)}\label{classcs242_1_1johnst26_1_1maze_1_1impl_1_1_manhattan_boolean_maze_impl_a57582eb471202bbc37542d731b97e114}
+
+\item 
+\hypertarget{classcs242_1_1johnst26_1_1maze_1_1impl_1_1_manhattan_boolean_maze_impl_a0243f1434ed31b13b073b5bf740e68c8}{boolean {\bfseries is\-Valid} (int r, int c)}\label{classcs242_1_1johnst26_1_1maze_1_1impl_1_1_manhattan_boolean_maze_impl_a0243f1434ed31b13b073b5bf740e68c8}
+
+\item 
+\hypertarget{classcs242_1_1johnst26_1_1maze_1_1impl_1_1_manhattan_boolean_maze_impl_a1686651754e7c9919cba0da72f05a128}{int {\bfseries get\-Width} ()}\label{classcs242_1_1johnst26_1_1maze_1_1impl_1_1_manhattan_boolean_maze_impl_a1686651754e7c9919cba0da72f05a128}
+
+\item 
+\hypertarget{classcs242_1_1johnst26_1_1maze_1_1impl_1_1_manhattan_boolean_maze_impl_a694c6728ccbff9e469d14fe8e44413db}{int {\bfseries get\-Height} ()}\label{classcs242_1_1johnst26_1_1maze_1_1impl_1_1_manhattan_boolean_maze_impl_a694c6728ccbff9e469d14fe8e44413db}
+
+\item 
+\hypertarget{classcs242_1_1johnst26_1_1maze_1_1impl_1_1_manhattan_boolean_maze_impl_a9f533833196ae75c11c8b487869cea22}{int\mbox{[}$\,$\mbox{]} {\bfseries get\-Start\-Spot} ()}\label{classcs242_1_1johnst26_1_1maze_1_1impl_1_1_manhattan_boolean_maze_impl_a9f533833196ae75c11c8b487869cea22}
+
+\item 
+\hypertarget{classcs242_1_1johnst26_1_1maze_1_1impl_1_1_manhattan_boolean_maze_impl_abb7b04c312b75dcd1b018cbe045eb975}{int\mbox{[}$\,$\mbox{]} {\bfseries get\-End\-Spot} ()}\label{classcs242_1_1johnst26_1_1maze_1_1impl_1_1_manhattan_boolean_maze_impl_abb7b04c312b75dcd1b018cbe045eb975}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+An implementation of the \hyperlink{interfacecs242_1_1johnst26_1_1maze_1_1_maze}{Maze} Interface. This is a Manhattan-\/\-Boolean implementation, in that the spaces of the maze are stored as an 2\-D array of booleans containing whether or `not the space is valid or invalid (whether it is a wall or not). The Manhattan component of the name signifying that the distance between points is based on the Manhattan distance formula.
+
+\begin{DoxyAuthor}{Author}
+Thomas Johnston 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classcs242_1_1johnst26_1_1maze_1_1impl_1_1_manhattan_boolean_maze_impl_af278ece8216ae03fd5f1a7a9f1602ab7}{\index{cs242\-::johnst26\-::maze\-::impl\-::\-Manhattan\-Boolean\-Maze\-Impl@{cs242\-::johnst26\-::maze\-::impl\-::\-Manhattan\-Boolean\-Maze\-Impl}!Manhattan\-Boolean\-Maze\-Impl@{Manhattan\-Boolean\-Maze\-Impl}}
+\index{Manhattan\-Boolean\-Maze\-Impl@{Manhattan\-Boolean\-Maze\-Impl}!cs242::johnst26::maze::impl::ManhattanBooleanMazeImpl@{cs242\-::johnst26\-::maze\-::impl\-::\-Manhattan\-Boolean\-Maze\-Impl}}
+\subsubsection[{Manhattan\-Boolean\-Maze\-Impl}]{\setlength{\rightskip}{0pt plus 5cm}cs242.\-johnst26.\-maze.\-impl.\-Manhattan\-Boolean\-Maze\-Impl.\-Manhattan\-Boolean\-Maze\-Impl (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcs242_1_1johnst26_1_1maze_1_1impl_1_1_manhattan_boolean_maze_impl_af278ece8216ae03fd5f1a7a9f1602ab7}
+The default constructor, randomly generates a maze based on the \hyperlink{interfacecs242_1_1johnst26_1_1maze_1_1_maze}{Maze} Constants 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/cs242/johnst26/maze/impl/Manhattan\-Boolean\-Maze\-Impl.\-java\end{DoxyCompactItemize}

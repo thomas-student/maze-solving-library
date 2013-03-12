@@ -1,0 +1,65 @@
+\hypertarget{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1pqueue_1_1_p_queue_maze_solver}{\section{cs242.\-johnst26.\-maze\-Solver.\-impl.\-pqueue.\-P\-Queue\-Maze\-Solver Class Reference}
+\label{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1pqueue_1_1_p_queue_maze_solver}\index{cs242.\-johnst26.\-maze\-Solver.\-impl.\-pqueue.\-P\-Queue\-Maze\-Solver@{cs242.\-johnst26.\-maze\-Solver.\-impl.\-pqueue.\-P\-Queue\-Maze\-Solver}}
+}
+
+
+Inherits \hyperlink{interfacecs242_1_1johnst26_1_1maze_solver_1_1_maze_solver}{cs242.\-johnst26.\-maze\-Solver.\-Maze\-Solver}.
+
+
+
+Inherited by \hyperlink{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1a_star_1_1_a_star_maze_solver}{cs242.\-johnst26.\-maze\-Solver.\-impl.\-a\-Star.\-A\-Star\-Maze\-Solver}.
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1pqueue_1_1_p_queue_maze_solver_afe29290be0ec3f79fd51523ea258246d}{P\-Queue\-Maze\-Solver} (\hyperlink{interfacecs242_1_1johnst26_1_1maze_1_1_maze}{Maze} maze)
+\item 
+\hypertarget{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1pqueue_1_1_p_queue_maze_solver_aed514a462d7ede4e0665a215ecdae996}{int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} {\bfseries solve\-Maze} ()}\label{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1pqueue_1_1_p_queue_maze_solver_aed514a462d7ede4e0665a215ecdae996}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1pqueue_1_1_p_queue_maze_solver_a3b03388133ab392e935fe3b818d58d85}{abstract void {\bfseries initialize\-Queue} ()}\label{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1pqueue_1_1_p_queue_maze_solver_a3b03388133ab392e935fe3b818d58d85}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1pqueue_1_1_p_queue_maze_solver_a878c747d202932a231e194cf7ff926a2}{Priority\-Queue$<$ \hyperlink{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1pqueue_1_1_maze_node}{Maze\-Node} $>$ {\bfseries open\-List}}\label{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1pqueue_1_1_p_queue_maze_solver_a878c747d202932a231e194cf7ff926a2}
+
+\item 
+\hypertarget{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1pqueue_1_1_p_queue_maze_solver_a9157a641e0149f4e0156ce9cb1c97078}{Hash\-Map$<$ \hyperlink{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1pqueue_1_1_maze_node}{Maze\-Node}, Boolean $>$ {\bfseries done}}\label{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1pqueue_1_1_p_queue_maze_solver_a9157a641e0149f4e0156ce9cb1c97078}
+
+\item 
+\hypertarget{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1pqueue_1_1_p_queue_maze_solver_a8f56f17452c0af6b1be85eb2c930e723}{\hyperlink{interfacecs242_1_1johnst26_1_1maze_1_1_maze}{Maze} {\bfseries maze}}\label{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1pqueue_1_1_p_queue_maze_solver_a8f56f17452c0af6b1be85eb2c930e723}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Thomas Johnston
+\end{DoxyAuthor}
+A priority queue implementation that allows for the use of different algorithm 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1pqueue_1_1_p_queue_maze_solver_afe29290be0ec3f79fd51523ea258246d}{\index{cs242\-::johnst26\-::maze\-Solver\-::impl\-::pqueue\-::\-P\-Queue\-Maze\-Solver@{cs242\-::johnst26\-::maze\-Solver\-::impl\-::pqueue\-::\-P\-Queue\-Maze\-Solver}!P\-Queue\-Maze\-Solver@{P\-Queue\-Maze\-Solver}}
+\index{P\-Queue\-Maze\-Solver@{P\-Queue\-Maze\-Solver}!cs242::johnst26::mazeSolver::impl::pqueue::PQueueMazeSolver@{cs242\-::johnst26\-::maze\-Solver\-::impl\-::pqueue\-::\-P\-Queue\-Maze\-Solver}}
+\subsubsection[{P\-Queue\-Maze\-Solver}]{\setlength{\rightskip}{0pt plus 5cm}cs242.\-johnst26.\-maze\-Solver.\-impl.\-pqueue.\-P\-Queue\-Maze\-Solver.\-P\-Queue\-Maze\-Solver (
+\begin{DoxyParamCaption}
+\item[{{\bf Maze}}]{maze}
+\end{DoxyParamCaption}
+)}}\label{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1pqueue_1_1_p_queue_maze_solver_afe29290be0ec3f79fd51523ea258246d}
+Initializes the P\-Queue Maze solver
+
+
+\begin{DoxyParams}{Parameters}
+{\em maze} & The Maze \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/cs242/johnst26/maze\-Solver/impl/pqueue/P\-Queue\-Maze\-Solver.\-java\end{DoxyCompactItemize}

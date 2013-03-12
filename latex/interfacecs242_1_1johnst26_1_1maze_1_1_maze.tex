@@ -1,0 +1,160 @@
+\hypertarget{interfacecs242_1_1johnst26_1_1maze_1_1_maze}{\section{cs242.\-johnst26.\-maze.\-Maze Interface Reference}
+\label{interfacecs242_1_1johnst26_1_1maze_1_1_maze}\index{cs242.\-johnst26.\-maze.\-Maze@{cs242.\-johnst26.\-maze.\-Maze}}
+}
+
+
+Inherited by \hyperlink{classcs242_1_1johnst26_1_1maze_1_1impl_1_1_manhattan_boolean_maze_impl}{cs242.\-johnst26.\-maze.\-impl.\-Manhattan\-Boolean\-Maze\-Impl}.
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \hyperlink{interfacecs242_1_1johnst26_1_1maze_1_1_maze_a77977c4d474be66cbcf30d4accc33a17}{get\-Valid\-Adjacent\-Spaces} (int r, int c)
+\item 
+boolean \hyperlink{interfacecs242_1_1johnst26_1_1maze_1_1_maze_a2fcb1817c989cb274297a026ccba8bce}{is\-Valid} (int r, int c)
+\item 
+double \hyperlink{interfacecs242_1_1johnst26_1_1maze_1_1_maze_a4650d241e235a30bd57dd11a01d9b7aa}{get\-Distance\-Between\-Spaces} (int x1, int y1, int x2, int y2)
+\item 
+int \hyperlink{interfacecs242_1_1johnst26_1_1maze_1_1_maze_ad0aaaadad9e847f0ab947faf40b35f16}{get\-Width} ()
+\item 
+int \hyperlink{interfacecs242_1_1johnst26_1_1maze_1_1_maze_a454e672a4513508561e33a055767c53a}{get\-Height} ()
+\item 
+int\mbox{[}$\,$\mbox{]} \hyperlink{interfacecs242_1_1johnst26_1_1maze_1_1_maze_a58f6990131e1cd198a264d3aa264a708}{get\-Start\-Spot} ()
+\item 
+int\mbox{[}$\,$\mbox{]} \hyperlink{interfacecs242_1_1johnst26_1_1maze_1_1_maze_ab2aeec8f37daa2af4c13e5df8ca31df3}{get\-End\-Spot} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interfacecs242_1_1johnst26_1_1maze_1_1_maze_a404e17484fb0ab792ebc4fee37141d26}{static final double {\bfseries M\-A\-Z\-E\-\_\-\-W\-A\-L\-L\-\_\-\-P\-E\-R\-C\-E\-N\-T\-A\-G\-E} = .\-15}\label{interfacecs242_1_1johnst26_1_1maze_1_1_maze_a404e17484fb0ab792ebc4fee37141d26}
+
+\item 
+\hypertarget{interfacecs242_1_1johnst26_1_1maze_1_1_maze_a56f8f7e7107ab285ae13506047463be0}{static final int {\bfseries D\-E\-F\-A\-U\-L\-T\-\_\-\-M\-A\-Z\-E\-\_\-\-H\-E\-I\-G\-H\-T} = 100}\label{interfacecs242_1_1johnst26_1_1maze_1_1_maze_a56f8f7e7107ab285ae13506047463be0}
+
+\item 
+\hypertarget{interfacecs242_1_1johnst26_1_1maze_1_1_maze_a193571a4a0b5426e5c8a514256aef704}{static final int {\bfseries D\-E\-F\-A\-U\-L\-T\-\_\-\-M\-A\-Z\-E\-\_\-\-W\-I\-D\-T\-H} = 100}\label{interfacecs242_1_1johnst26_1_1maze_1_1_maze_a193571a4a0b5426e5c8a514256aef704}
+
+\item 
+\hypertarget{interfacecs242_1_1johnst26_1_1maze_1_1_maze_a6cff30d46abba255be827f0ae4287034}{static final int\mbox{[}$\,$\mbox{]} {\bfseries D\-E\-F\-A\-U\-L\-T\-\_\-\-S\-T\-A\-R\-T\-\_\-\-S\-P\-O\-T} = \{0,0\}}\label{interfacecs242_1_1johnst26_1_1maze_1_1_maze_a6cff30d46abba255be827f0ae4287034}
+
+\item 
+\hypertarget{interfacecs242_1_1johnst26_1_1maze_1_1_maze_a49ca767294f8bf54c8689e100224b59b}{static final int\mbox{[}$\,$\mbox{]} {\bfseries D\-E\-F\-A\-U\-L\-T\-\_\-\-E\-N\-D\-\_\-\-S\-P\-O\-T} = \{99,99\}}\label{interfacecs242_1_1johnst26_1_1maze_1_1_maze_a49ca767294f8bf54c8689e100224b59b}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Thomas Johnston 
+\end{DoxyAuthor}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interfacecs242_1_1johnst26_1_1maze_1_1_maze_a4650d241e235a30bd57dd11a01d9b7aa}{\index{cs242\-::johnst26\-::maze\-::\-Maze@{cs242\-::johnst26\-::maze\-::\-Maze}!get\-Distance\-Between\-Spaces@{get\-Distance\-Between\-Spaces}}
+\index{get\-Distance\-Between\-Spaces@{get\-Distance\-Between\-Spaces}!cs242::johnst26::maze::Maze@{cs242\-::johnst26\-::maze\-::\-Maze}}
+\subsubsection[{get\-Distance\-Between\-Spaces}]{\setlength{\rightskip}{0pt plus 5cm}double cs242.\-johnst26.\-maze.\-Maze.\-get\-Distance\-Between\-Spaces (
+\begin{DoxyParamCaption}
+\item[{int}]{x1, }
+\item[{int}]{y1, }
+\item[{int}]{x2, }
+\item[{int}]{y2}
+\end{DoxyParamCaption}
+)}}\label{interfacecs242_1_1johnst26_1_1maze_1_1_maze_a4650d241e235a30bd57dd11a01d9b7aa}
+Returns the distance between two spaces on the maze
+
+
+\begin{DoxyParams}{Parameters}
+{\em x1} & The first coordinates x value \\
+\hline
+{\em y1} & The first coordinates y value \\
+\hline
+{\em x2} & The second coordinates x value \\
+\hline
+{\em y2} & The second coordinates y value \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The distance 
+\end{DoxyReturn}
+\hypertarget{interfacecs242_1_1johnst26_1_1maze_1_1_maze_ab2aeec8f37daa2af4c13e5df8ca31df3}{\index{cs242\-::johnst26\-::maze\-::\-Maze@{cs242\-::johnst26\-::maze\-::\-Maze}!get\-End\-Spot@{get\-End\-Spot}}
+\index{get\-End\-Spot@{get\-End\-Spot}!cs242::johnst26::maze::Maze@{cs242\-::johnst26\-::maze\-::\-Maze}}
+\subsubsection[{get\-End\-Spot}]{\setlength{\rightskip}{0pt plus 5cm}int \mbox{[}$\,$\mbox{]} cs242.\-johnst26.\-maze.\-Maze.\-get\-End\-Spot (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacecs242_1_1johnst26_1_1maze_1_1_maze_ab2aeec8f37daa2af4c13e5df8ca31df3}
+\begin{DoxyReturn}{Returns}
+The end spot 
+\end{DoxyReturn}
+\hypertarget{interfacecs242_1_1johnst26_1_1maze_1_1_maze_a454e672a4513508561e33a055767c53a}{\index{cs242\-::johnst26\-::maze\-::\-Maze@{cs242\-::johnst26\-::maze\-::\-Maze}!get\-Height@{get\-Height}}
+\index{get\-Height@{get\-Height}!cs242::johnst26::maze::Maze@{cs242\-::johnst26\-::maze\-::\-Maze}}
+\subsubsection[{get\-Height}]{\setlength{\rightskip}{0pt plus 5cm}int cs242.\-johnst26.\-maze.\-Maze.\-get\-Height (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacecs242_1_1johnst26_1_1maze_1_1_maze_a454e672a4513508561e33a055767c53a}
+\begin{DoxyReturn}{Returns}
+The height 
+\end{DoxyReturn}
+\hypertarget{interfacecs242_1_1johnst26_1_1maze_1_1_maze_a58f6990131e1cd198a264d3aa264a708}{\index{cs242\-::johnst26\-::maze\-::\-Maze@{cs242\-::johnst26\-::maze\-::\-Maze}!get\-Start\-Spot@{get\-Start\-Spot}}
+\index{get\-Start\-Spot@{get\-Start\-Spot}!cs242::johnst26::maze::Maze@{cs242\-::johnst26\-::maze\-::\-Maze}}
+\subsubsection[{get\-Start\-Spot}]{\setlength{\rightskip}{0pt plus 5cm}int \mbox{[}$\,$\mbox{]} cs242.\-johnst26.\-maze.\-Maze.\-get\-Start\-Spot (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacecs242_1_1johnst26_1_1maze_1_1_maze_a58f6990131e1cd198a264d3aa264a708}
+\begin{DoxyReturn}{Returns}
+The Start Spot 
+\end{DoxyReturn}
+\hypertarget{interfacecs242_1_1johnst26_1_1maze_1_1_maze_a77977c4d474be66cbcf30d4accc33a17}{\index{cs242\-::johnst26\-::maze\-::\-Maze@{cs242\-::johnst26\-::maze\-::\-Maze}!get\-Valid\-Adjacent\-Spaces@{get\-Valid\-Adjacent\-Spaces}}
+\index{get\-Valid\-Adjacent\-Spaces@{get\-Valid\-Adjacent\-Spaces}!cs242::johnst26::maze::Maze@{cs242\-::johnst26\-::maze\-::\-Maze}}
+\subsubsection[{get\-Valid\-Adjacent\-Spaces}]{\setlength{\rightskip}{0pt plus 5cm}int \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} cs242.\-johnst26.\-maze.\-Maze.\-get\-Valid\-Adjacent\-Spaces (
+\begin{DoxyParamCaption}
+\item[{int}]{r, }
+\item[{int}]{c}
+\end{DoxyParamCaption}
+)}}\label{interfacecs242_1_1johnst26_1_1maze_1_1_maze_a77977c4d474be66cbcf30d4accc33a17}
+Returns the distance between two spaces 
+\begin{DoxyParams}{Parameters}
+{\em r} & The Row for the given space \\
+\hline
+{\em c} & The Column for the given space \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An array of coordinates 
+\end{DoxyReturn}
+\hypertarget{interfacecs242_1_1johnst26_1_1maze_1_1_maze_ad0aaaadad9e847f0ab947faf40b35f16}{\index{cs242\-::johnst26\-::maze\-::\-Maze@{cs242\-::johnst26\-::maze\-::\-Maze}!get\-Width@{get\-Width}}
+\index{get\-Width@{get\-Width}!cs242::johnst26::maze::Maze@{cs242\-::johnst26\-::maze\-::\-Maze}}
+\subsubsection[{get\-Width}]{\setlength{\rightskip}{0pt plus 5cm}int cs242.\-johnst26.\-maze.\-Maze.\-get\-Width (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interfacecs242_1_1johnst26_1_1maze_1_1_maze_ad0aaaadad9e847f0ab947faf40b35f16}
+\begin{DoxyReturn}{Returns}
+The width 
+\end{DoxyReturn}
+\hypertarget{interfacecs242_1_1johnst26_1_1maze_1_1_maze_a2fcb1817c989cb274297a026ccba8bce}{\index{cs242\-::johnst26\-::maze\-::\-Maze@{cs242\-::johnst26\-::maze\-::\-Maze}!is\-Valid@{is\-Valid}}
+\index{is\-Valid@{is\-Valid}!cs242::johnst26::maze::Maze@{cs242\-::johnst26\-::maze\-::\-Maze}}
+\subsubsection[{is\-Valid}]{\setlength{\rightskip}{0pt plus 5cm}boolean cs242.\-johnst26.\-maze.\-Maze.\-is\-Valid (
+\begin{DoxyParamCaption}
+\item[{int}]{r, }
+\item[{int}]{c}
+\end{DoxyParamCaption}
+)}}\label{interfacecs242_1_1johnst26_1_1maze_1_1_maze_a2fcb1817c989cb274297a026ccba8bce}
+Returns the boolean containing the validity of the space
+
+
+\begin{DoxyParams}{Parameters}
+{\em r} & The Row for the given space \\
+\hline
+{\em c} & The Column for the given space \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The validity of the given space 
+\end{DoxyReturn}
+
+
+The documentation for this interface was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/cs242/johnst26/maze/Maze.\-java\end{DoxyCompactItemize}

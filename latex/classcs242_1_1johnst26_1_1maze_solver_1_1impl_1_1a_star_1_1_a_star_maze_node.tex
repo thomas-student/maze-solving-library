@@ -1,0 +1,87 @@
+\hypertarget{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1a_star_1_1_a_star_maze_node}{\section{cs242.\-johnst26.\-maze\-Solver.\-impl.\-a\-Star.\-A\-Star\-Maze\-Node Class Reference}
+\label{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1a_star_1_1_a_star_maze_node}\index{cs242.\-johnst26.\-maze\-Solver.\-impl.\-a\-Star.\-A\-Star\-Maze\-Node@{cs242.\-johnst26.\-maze\-Solver.\-impl.\-a\-Star.\-A\-Star\-Maze\-Node}}
+}
+
+
+Inherits \hyperlink{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1pqueue_1_1_maze_node}{cs242.\-johnst26.\-maze\-Solver.\-impl.\-pqueue.\-Maze\-Node}.
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1a_star_1_1_a_star_maze_node_affd4c9fd5808c57318197ee67d22af40}{A\-Star\-Maze\-Node} (int\mbox{[}$\,$\mbox{]} coord, \hyperlink{interfacecs242_1_1johnst26_1_1maze_1_1_maze}{Maze} maze)
+\item 
+\hyperlink{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1a_star_1_1_a_star_maze_node_a617061f7392eeb79ccf05dc0152e0ada}{A\-Star\-Maze\-Node} (int\mbox{[}$\,$\mbox{]} coord, \hyperlink{interfacecs242_1_1johnst26_1_1maze_1_1_maze}{Maze} maze, \hyperlink{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1pqueue_1_1_maze_node}{Maze\-Node} from)
+\item 
+\hypertarget{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1a_star_1_1_a_star_maze_node_ad104d31e5758ac208bd39b0adbd56653}{int {\bfseries compare\-To} (Object arg0)}\label{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1a_star_1_1_a_star_maze_node_ad104d31e5758ac208bd39b0adbd56653}
+
+\item 
+\hypertarget{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1a_star_1_1_a_star_maze_node_af2af02b034dc384d8d29351dd1caca39}{\hyperlink{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1pqueue_1_1_maze_node}{Maze\-Node}\mbox{[}$\,$\mbox{]} {\bfseries add\-Spots} (int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} spots)}\label{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1a_star_1_1_a_star_maze_node_af2af02b034dc384d8d29351dd1caca39}
+
+\item 
+double \hyperlink{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1a_star_1_1_a_star_maze_node_ad83cb72882be86238ec9671908c2cd8c}{get\-F\-Value} ()
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+An extension of Maze\-Node implemented for the \hyperlink{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1a_star_1_1_a_star_maze_solver}{A\-Star\-Maze\-Solver}
+
+\begin{DoxyAuthor}{Author}
+Thomas Johnston 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1a_star_1_1_a_star_maze_node_affd4c9fd5808c57318197ee67d22af40}{\index{cs242\-::johnst26\-::maze\-Solver\-::impl\-::a\-Star\-::\-A\-Star\-Maze\-Node@{cs242\-::johnst26\-::maze\-Solver\-::impl\-::a\-Star\-::\-A\-Star\-Maze\-Node}!A\-Star\-Maze\-Node@{A\-Star\-Maze\-Node}}
+\index{A\-Star\-Maze\-Node@{A\-Star\-Maze\-Node}!cs242::johnst26::mazeSolver::impl::aStar::AStarMazeNode@{cs242\-::johnst26\-::maze\-Solver\-::impl\-::a\-Star\-::\-A\-Star\-Maze\-Node}}
+\subsubsection[{A\-Star\-Maze\-Node}]{\setlength{\rightskip}{0pt plus 5cm}cs242.\-johnst26.\-maze\-Solver.\-impl.\-a\-Star.\-A\-Star\-Maze\-Node.\-A\-Star\-Maze\-Node (
+\begin{DoxyParamCaption}
+\item[{int\mbox{[}$\,$\mbox{]}}]{coord, }
+\item[{{\bf Maze}}]{maze}
+\end{DoxyParamCaption}
+)}}\label{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1a_star_1_1_a_star_maze_node_affd4c9fd5808c57318197ee67d22af40}
+
+\begin{DoxyParams}{Parameters}
+{\em coord} & The coordinate this node represents \\
+\hline
+{\em maze} & The maze that this node lives on \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1a_star_1_1_a_star_maze_node_a617061f7392eeb79ccf05dc0152e0ada}{\index{cs242\-::johnst26\-::maze\-Solver\-::impl\-::a\-Star\-::\-A\-Star\-Maze\-Node@{cs242\-::johnst26\-::maze\-Solver\-::impl\-::a\-Star\-::\-A\-Star\-Maze\-Node}!A\-Star\-Maze\-Node@{A\-Star\-Maze\-Node}}
+\index{A\-Star\-Maze\-Node@{A\-Star\-Maze\-Node}!cs242::johnst26::mazeSolver::impl::aStar::AStarMazeNode@{cs242\-::johnst26\-::maze\-Solver\-::impl\-::a\-Star\-::\-A\-Star\-Maze\-Node}}
+\subsubsection[{A\-Star\-Maze\-Node}]{\setlength{\rightskip}{0pt plus 5cm}cs242.\-johnst26.\-maze\-Solver.\-impl.\-a\-Star.\-A\-Star\-Maze\-Node.\-A\-Star\-Maze\-Node (
+\begin{DoxyParamCaption}
+\item[{int\mbox{[}$\,$\mbox{]}}]{coord, }
+\item[{{\bf Maze}}]{maze, }
+\item[{{\bf Maze\-Node}}]{from}
+\end{DoxyParamCaption}
+)}}\label{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1a_star_1_1_a_star_maze_node_a617061f7392eeb79ccf05dc0152e0ada}
+
+\begin{DoxyParams}{Parameters}
+{\em coord} & The coordinate this node represents \\
+\hline
+{\em maze} & The maze that this node lives on \\
+\hline
+{\em from} & The node this node came from \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1a_star_1_1_a_star_maze_node_ad83cb72882be86238ec9671908c2cd8c}{\index{cs242\-::johnst26\-::maze\-Solver\-::impl\-::a\-Star\-::\-A\-Star\-Maze\-Node@{cs242\-::johnst26\-::maze\-Solver\-::impl\-::a\-Star\-::\-A\-Star\-Maze\-Node}!get\-F\-Value@{get\-F\-Value}}
+\index{get\-F\-Value@{get\-F\-Value}!cs242::johnst26::mazeSolver::impl::aStar::AStarMazeNode@{cs242\-::johnst26\-::maze\-Solver\-::impl\-::a\-Star\-::\-A\-Star\-Maze\-Node}}
+\subsubsection[{get\-F\-Value}]{\setlength{\rightskip}{0pt plus 5cm}double cs242.\-johnst26.\-maze\-Solver.\-impl.\-a\-Star.\-A\-Star\-Maze\-Node.\-get\-F\-Value (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcs242_1_1johnst26_1_1maze_solver_1_1impl_1_1a_star_1_1_a_star_maze_node_ad83cb72882be86238ec9671908c2cd8c}
+Calculates the F-\/value
+
+\begin{DoxyReturn}{Returns}
+The F-\/\-Value 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/cs242/johnst26/maze\-Solver/impl/a\-Star/A\-Star\-Maze\-Node.\-java\end{DoxyCompactItemize}
